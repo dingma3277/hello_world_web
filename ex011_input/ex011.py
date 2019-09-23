@@ -1,5 +1,8 @@
+#!/usr/bin/python
+# libraries
 from sys import argv
 
+# 2019 Sep 17
 prompt = '> '
 age = input("How old are you? \n" + prompt)
 print(age)

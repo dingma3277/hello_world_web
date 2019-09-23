@@ -22,6 +22,7 @@ print("5 >= -2:", 5 >= -2)
 car_make = 'Ford'
 car_number = 4
 print("there are", car_number, "cars from", car_make)
+print("there are "+ str(car_number)+ " cars from "+ str(car_make))
 print("there are %d cars from %s." % (car_number, car_make))
 
 
@@ -46,7 +47,7 @@ Even 4 lines if we want, or 5, or 6.
 """)
 
 
-# In[8]:
+# In[6]:
 
 
 ##while True:
@@ -54,8 +55,8 @@ for i in ["/","\\"]:
     print("%s" % i)
 
 
-# In[ ]:
+# In[7]:
 
 
-##!jupyter nbconvert --to script ex001.ipynb
+get_ipython().system('jupyter nbconvert --to script ex001.ipynb')
 
